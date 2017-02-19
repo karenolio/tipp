@@ -482,6 +482,7 @@
 				BF4582E61E52998900685C06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF4582E71E52998900685C06 /* Build configuration list for PBXNativeTarget "tippTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				BF4582E91E52998900685C06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF4582EA1E52998900685C06 /* Build configuration list for PBXNativeTarget "tippUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +500,7 @@
 				BF4582EC1E52998900685C06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
