@@ -45,11 +45,11 @@ class ViewController: UIViewController {
     }
 
     //tap anywhere outside Bill textfield and it minimizes keypad
-    @IBAction func onTap(_sender: AnyObject) {
+    @IBAction func onTap(_ sender: AnyObject) {
         view.endEditing(true)
     }
 
-    @IBAction func calculateTip(_sender: AnyObject) {
+    @IBAction func calculateTip(_ sender: AnyObject) {
         
         
         let tipPercentages = [0.18, 0.20, 0.25]
@@ -60,11 +60,19 @@ class ViewController: UIViewController {
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
         
+        UIView.animate(withDuration: 0.5, animations: {
+            
         self.tipName.alpha = 1
         self.tipLabel.alpha = 1
         self.totalName.alpha = 1
         self.totalLabel.alpha = 1
         self.tipControl.alpha = 1
+            
+        self.billName.alpha = 0.4
+        self.billField.alpha = 0.4
+        self.dollarSign.alpha = 0.4
+        }
+        )
  
     }
     
