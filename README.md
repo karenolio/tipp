@@ -27,13 +27,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<a href="https://github.com/karenolio/tipp/blob/master/Tipp.gif"><img src='https://github.com/karenolio/tipp/blob/master/Tipp.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
+<a href="https://github.com/karenolio/tipp/blob/master/TippUpdated.gif" target="_blank"><img src='https://github.com/karenolio/tipp/blob/master/TippUpdated.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /></a>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Identifying error messages such as SIGABRT Error, resolving accidental breakpoints, nothing major :)
+Identifying error messages such as SIGABRT and resolving accidental breakpoints, nothing major :)
 
 ## License
 
